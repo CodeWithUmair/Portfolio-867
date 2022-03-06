@@ -1,3 +1,3 @@
 # Portfolio.
 
-https://codewithumair.github.io/Portfolio./
+https://adoring-stonebraker-c7b247.netlify.app/
