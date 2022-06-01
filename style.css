@@ -168,36 +168,17 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("img-1.jpg") no-repeat center;
+  background: url("img-8.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
+  /* background-color: #111; */
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
   overflow: hidden;
   position: relative;
-  animation: change 30s infinite ease-in-out;
-}
-@keyframes change {
-  0% {
-    background-image: url(img-1.jpg);
-  }
-  20% {
-    background-image: url(img-2.jpg);
-  }
-  40% {
-    background-image: url(img-3.jpg);
-  }
-  60% {
-    background-image: url(img-4.jpg);
-  }
-  80% {
-    background-image: url(img-5.jpg);
-  }
-  100% {
-    background-image: url(img-6.jpg);
-  }
+  /* animation: change 30s infinite ease-in-out; */
 }
 .home .max-width {
   width: 100%;
@@ -522,6 +503,9 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+footer span img.footer-links {
+  margin: 0.5rem 0.5rem -0.2rem 0.5rem;
+}
 /* responsive media query start */
 @media (max-width: 1104px) {
   .about .about-content .left img {
