@@ -260,21 +260,70 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(0, 68, 255);
+  background: #444;
   color: #fff;
+  position: relative;
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.1em;
   padding: 10px 30px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid rgb(0, 68, 255);
-  transition: all 0.3s ease;
+  margin-top: 35px;
+  text-decoration: none;
+  transition: 0.5s;
 }
 .about .about-content .right a:hover {
-  color: rgb(0, 68, 255);
-  background: none;
+  letter-spacing: 0.25em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
 }
-
+.about .about-content .right a::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #111;
+}
+.about .about-content .right a span {
+  position: relative;
+  z-index: 1;
+}
+.about .about-content .right a i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.about .about-content .right a i::before {
+  content: "";
+  position: absolute;
+  top: -3.5px;
+  left: 80%;
+  width: 10px;
+  height: 2px;
+  border: 2px solid var(--clr);
+  background: #111;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+.about .about-content .right a:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+.about .about-content .right a i::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 20%;
+  width: 10px;
+  height: 2px;
+  border: 2px solid var(--clr);
+  background: #111;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+.about .about-content .right a:hover i::after {
+  width: 20px;
+  left: 80%;
+}
 /* project section styling */
 .project,
 .teams {
