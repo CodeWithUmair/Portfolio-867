@@ -37,6 +37,7 @@ section {
 }
 .about,
 .project,
+.services,
 .skills,
 .teams,
 .contact,
@@ -44,6 +45,7 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 .about .about-content,
+.services .services-content,
 .skills .skills-content,
 .contact .contact-content {
   display: flex;
@@ -324,19 +326,35 @@ section .title::after {
   width: 20px;
   left: 80%;
 }
+/* services section styling */
+.services,
+.teams {
+  color: #111;
+  background: #fff;
+}
+.services .title::before,
+.teams .title::before {
+  background: #111;
+}
+.services .title::after,
+.teams .title::after {
+  background: #fff;
+  content: "what i provide";
+}
+
 /* project section styling */
 .project,
 .teams {
-  color: #fff;
-  background: #111;
+  color: #111;
+  background: #fff;
 }
 .project .title::before,
 .teams .title::before {
-  background: #fff;
+  background: #111;
 }
 .project .title::after,
 .teams .title::after {
-  background: #111;
+  background: #fff;
   content: "what i made";
 }
 
@@ -375,7 +393,7 @@ a + a {
   position: relative;
   cursor: pointer;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 4px;
   transition: 0.2s;
   overflow: hidden;
