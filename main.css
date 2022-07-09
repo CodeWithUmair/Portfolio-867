@@ -130,7 +130,6 @@ h4 {
   );
   border-radius: 15px;
 }
-
 .container .card:nth-child(2) .face.face2 {
   background-image: linear-gradient(
     40deg,
@@ -140,7 +139,6 @@ h4 {
   );
   border-radius: 15px;
 }
-
 .container .card:nth-child(3) .face.face2 {
   background-image: linear-gradient(
     40deg,
@@ -156,6 +154,15 @@ h4 {
     #fffc00 0%,
     #fc00ff 45%,
     #00fffc 100%
+  );
+  border-radius: 15px;
+}
+.container .card:nth-child(5) .face.face2 {
+  background-image: linear-gradient(
+    40deg,
+    #fc00ff 0%,
+    #00fffc 45%,
+    #fffc00 100%
   );
   border-radius: 15px;
 }
