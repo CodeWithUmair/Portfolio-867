@@ -408,12 +408,56 @@ a + a {
   color: rgb(87, 125, 230);
   /* display: inline-block; */
 }
-.skills .skills-content .column a:hover {
+#btn-1:hover {
   color: #fff;
-  background: rgb(87, 125, 230);
-  box-shadow: 0 0 10px rgb(87, 125, 230), 0 0 40px rgb(87, 125, 230),
-    0 0 80px rgb(87, 125, 230);
+  background: #e44b23;
+  box-shadow: 0 0 10px #e44b23, 0 0 40px rgb(87, 125, 230), 0 0 80px #e44b23;
   transition-delay: 1s;
+  border-radius: 5px;
+}
+
+#btn-2:hover {
+  color: #fff;
+  background: #563d7c;
+  box-shadow: 0 0 10px #563d7c, 0 0 40px rgb(87, 125, 230), 0 0 80px #563d7c;
+  transition-delay: 1s;
+  border-radius: 5px;
+}
+#btn-3:hover {
+  color: #fff;
+  background: rgb(56, 189, 248);
+  box-shadow: 0 0 10px rgb(56, 189, 248), 0 0 40px rgb(87, 125, 230),
+    0 0 80px rgb(56, 189, 248);
+  transition-delay: 1s;
+  border-radius: 5px;
+}
+#btn-4:hover {
+  color: #fff;
+  background: #6f42c1;
+  box-shadow: 0 0 10px #6f42c1, 0 0 40px rgb(87, 125, 230), 0 0 80px #6f42c1;
+  transition-delay: 1s;
+  border-radius: 5px;
+}
+#btn-5:hover {
+  color: #111;
+  background: #f1e05a;
+  box-shadow: 0 0 10px #f1e05a, 0 0 40px rgb(87, 125, 230), 0 0 80px #f1e05a;
+  transition-delay: 1s;
+  border-radius: 5px;
+}
+#btn-6:hover {
+  color: #61dbfb;
+  background: #111;
+  box-shadow: 0 0 10px#61dbfb, 0 0 40px rgb(87, 125, 230), 0 0 80px #61dbfb;
+  transition-delay: 1s;
+  border-radius: 5px;
+}
+#btn-7:hover {
+  color: #fff;
+  background: #026e00;
+  box-shadow: 0 0 10px #026e00, 0 0 40px rgb(87, 125, 230), 0 0 80px #026e00;
+  transition-delay: 1s;
+  border-radius: 5px;
 }
 .skills .skills-content .column a span {
   position: absolute;
