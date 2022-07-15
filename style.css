@@ -205,14 +205,15 @@ section .title::after {
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
+  color: rgb(0, 68, 255);
   margin-left: -3px;
 }
 .home .home-content .text-3 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(0, 68, 255);
+  color: #fff;
   font-weight: 500;
 }
 .home .home-content a {
