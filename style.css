@@ -447,7 +447,7 @@ a + a {
 }
 #btn-6:hover {
   color: #61dbfb;
-  background: #111;
+  background: #222;
   box-shadow: 0 0 10px#61dbfb, 0 0 40px rgb(87, 125, 230), 0 0 80px #61dbfb;
   transition-delay: 1s;
   border-radius: 5px;
