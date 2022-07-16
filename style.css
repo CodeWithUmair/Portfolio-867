@@ -408,6 +408,9 @@ a + a {
   color: rgb(87, 125, 230);
   /* display: inline-block; */
 }
+#btn-1 {
+  color: #e44b23;
+}
 #btn-1:hover {
   color: #fff;
   background: #e44b23;
@@ -415,13 +418,18 @@ a + a {
   transition-delay: 1s;
   border-radius: 5px;
 }
-
+#btn-2 {
+  color: #563d7c;
+}
 #btn-2:hover {
   color: #fff;
   background: #563d7c;
   box-shadow: 0 0 10px #563d7c, 0 0 40px rgb(87, 125, 230), 0 0 80px #563d7c;
   transition-delay: 1s;
   border-radius: 5px;
+}
+#btn-3 {
+  color: rgb(56, 189, 248);
 }
 #btn-3:hover {
   color: #fff;
@@ -431,12 +439,18 @@ a + a {
   transition-delay: 1s;
   border-radius: 5px;
 }
+#btn-4 {
+  color: #6f42c1;
+}
 #btn-4:hover {
   color: #fff;
   background: #6f42c1;
   box-shadow: 0 0 10px #6f42c1, 0 0 40px rgb(87, 125, 230), 0 0 80px #6f42c1;
   transition-delay: 1s;
   border-radius: 5px;
+}
+#btn-5 {
+  color: #f1e05a;
 }
 #btn-5:hover {
   color: #111;
@@ -445,12 +459,18 @@ a + a {
   transition-delay: 1s;
   border-radius: 5px;
 }
+#btn-6 {
+  color: #61dbfb;
+}
 #btn-6:hover {
   color: #61dbfb;
   background: #222;
   box-shadow: 0 0 10px#61dbfb, 0 0 40px rgb(87, 125, 230), 0 0 80px #61dbfb;
   transition-delay: 1s;
   border-radius: 5px;
+}
+#btn-7 {
+  color: #026e00;
 }
 #btn-7:hover {
   color: #fff;
