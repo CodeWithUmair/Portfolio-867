@@ -383,7 +383,7 @@ section .title::after {
 }
 .skills .skills-content .column {
   width: calc(100% - 50px);
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 100px;
   justify-content: center;
   align-items: center;
