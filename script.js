@@ -41,7 +41,7 @@ $(document).ready(function () {
       "Freelancer",
       "Web Designer",
     ],
-    typeSpeed: 100,
+    typeSpeed: 30,
     backSpeed: 60,
     loop: true,
   });
@@ -53,7 +53,7 @@ $(document).ready(function () {
       "Freelancer",
       "Web Designer",
     ],
-    typeSpeed: 100,
+    typeSpeed: 40,
     backSpeed: 60,
     loop: true,
   });
