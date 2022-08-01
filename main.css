@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 body-container {
   margin: 0;
   padding: 0;
@@ -14,13 +15,11 @@ body-container {
   font-family: "Righteous", cursive;
   min-height: 100vh;
   background-color: #a9c9ff;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#a9c9ff),
-    to(#ffbbec)
-  );
+  background-image: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#a9c9ff),
+      to(#ffbbec));
   background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
 }
 
@@ -122,57 +121,51 @@ h4 {
 }
 
 .container .card:nth-child(1) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fffc00 0%,
-    #fc00ff 45%,
-    #00fffc 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 .container .card:nth-child(2) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fc00ff 0%,
-    #00fffc 45%,
-    #fffc00 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 .container .card:nth-child(3) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #00fffc 0%,
-    #fc00ff 45%,
-    #fffc00 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 .container .card:nth-child(4) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fffc00 0%,
-    #fc00ff 45%,
-    #00fffc 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 .container .card:nth-child(5) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fc00ff 0%,
-    #00fffc 45%,
-    #fffc00 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 .container .card:nth-child(6) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #00fffc 0%,
-    #fc00ff 45%,
-    #fffc00 100%
-  );
+  background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
   border-radius: 15px;
 }
+
 /*# sourceMappingURL=main.css.map */
