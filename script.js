@@ -38,7 +38,7 @@ $(document).ready(function () {
     strings: [
       "Front-End Developer",
       "React JS Developer",
-      "React Native Developer",
+      // "React Native Developer",
       "Freelancer",
       "Web Designer",
     ],
@@ -51,7 +51,7 @@ $(document).ready(function () {
     strings: [
       "Front-End Developer",
       "React JS Developer",
-      "React Native Developer",
+      // "React Native Developer",
       "Freelancer",
       "Web Designer",
     ],
