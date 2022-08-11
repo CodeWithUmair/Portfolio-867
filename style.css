@@ -483,14 +483,14 @@ a+a {
 }
 
 #btn-3 {
-  color: rgb(56, 189, 248);
+  color: #5090D3;
 }
 
 #btn-3:hover {
   color: #fff;
-  background: rgb(56, 189, 248);
-  box-shadow: 0 0 10px rgb(56, 189, 248), 0 0 40px rgb(87, 125, 230),
-    0 0 80px rgb(56, 189, 248);
+  background: #5090D3;
+  box-shadow: 0 0 10px #5090D3, 0 0 40px rgb(87, 125, 230),
+    0 0 80px #5090D3;
   transition-delay: 1s;
   border-radius: 5px;
 }
