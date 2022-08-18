@@ -9,6 +9,21 @@
   text-decoration: none;
 }
 
+#wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  transition: opacity 5s, visibility 5s;
+}
+
+.fade {
+  opacity: 0;
+  visibility: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
