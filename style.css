@@ -16,7 +16,7 @@
   background-color: #fff;
   display: grid;
   place-items: center;
-  transition: opacity 5s, visibility 5s;
+  transition: opacity 1s, visibility 2s;
 }
 
 .fade {
