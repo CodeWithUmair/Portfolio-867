@@ -240,6 +240,7 @@ section .title::after {
   font-size: 75px;
   font-weight: 600;
   /* color: rgb(0, 70, 255); */
+  -webkit-text-stroke: rgb(0, 70, 255) 2px;
   margin-left: -3px;
 }
 
@@ -830,6 +831,7 @@ footer span img.footer-links {
 
   .home .home-content .text-2 {
     font-size: 70px;
+    -webkit-text-stroke: rgb(0, 70, 255) 2px;
   }
 
   .home .home-content .text-3 {
@@ -878,6 +880,7 @@ footer span img.footer-links {
 
   .home .home-content .text-2 {
     font-size: 60px;
+    -webkit-text-stroke: rgb(0, 70, 255) 2px;
   }
 
   .home .home-content .text-3 {
@@ -896,6 +899,7 @@ footer span img.footer-links {
 @media (max-width: 500px) {
   .home .home-content .text-2 {
     font-size: 50px;
+    -webkit-text-stroke: rgb(0, 70, 255) 2px;
   }
 
   .home .home-content .text-3 {
