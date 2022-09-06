@@ -547,18 +547,6 @@ a+a {
   border-radius: 5px;
 }
 
-#btn-8 {
-  color: #764abc;
-}
-
-#btn-8:hover {
-  color: #fff;
-  background: #764abc;
-  box-shadow: 0 0 10px#764abc, 0 0 40px rgb(87, 125, 230), 0 0 80px #764abc;
-  transition-delay: 1s;
-  border-radius: 5px;
-}
-
 #btn-7 {
   color: #026e00;
 }
@@ -570,6 +558,20 @@ a+a {
   transition-delay: 1s;
   border-radius: 5px;
 }
+
+/* for now it's nothing use. might in future  */
+
+/* #btn-8 {
+  color: #764abc;
+}
+
+#btn-8:hover {
+  color: #fff;
+  background: #764abc;
+  box-shadow: 0 0 10px#764abc, 0 0 40px rgb(87, 125, 230), 0 0 80px #764abc;
+  transition-delay: 1s;
+  border-radius: 5px;
+} */
 
 .skills .skills-content .column a span {
   position: absolute;
