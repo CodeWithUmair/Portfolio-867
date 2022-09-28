@@ -234,6 +234,10 @@ section .title::after {
   margin-right: 0;
 }
 
+.home .home-content {
+  margin-top: -40px;
+}
+
 .home .home-content .text-1 {
   font-size: 27px;
 }
