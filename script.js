@@ -88,3 +88,54 @@ $(document).ready(function () {
     },
   });
 });
+
+/////////////////////////////////////////////////////////
+
+// Test Section
+
+// const titles = [
+//   { id: 1, title: "Title 1" },
+//   { id: 2, title: "Title 2" },
+//   { id: 3, title: "Title 3" },
+// ];
+
+// const posts = [
+//   { id: 1, post: "This is post 1" },
+//   { id: 3, post: "This is post 3" },
+//   { id: 2, post: "This is post 2" },
+// ];
+
+// //Expected output
+// [
+//   { id: 1, title: "Title 1", post: "This is post 1" },
+//   { id: 2, title: "Title 2", post: "This is post 2" },
+//   { id: 3, title: "Title 3", post: "This is post 3" },
+// ];
+
+// const joinArr = [...titles];
+// console.log("🚀 ~ file: script.js ~ line 116 ~ posts", posts);
+// // console.log("🚀 ~ file: script.js ~ line 116 ~ joinArr", joinArr);
+
+// const joinFunction = () => {
+//   const postsObj = { ...posts };
+//   console.log(
+//     "🚀 ~ file: script.js ~ line 121 ~ joinFunction ~ postsObj",
+//     postsObj
+//   );
+
+//   const joinArr = titles.map((t) => {
+//     if (t.id && t.title && postsObj) {
+//       t.id, t.title, { ...posts };
+//     }
+//   });
+// };
+
+// joinFunction();
+// console.log("🚀 ~ file: script.js ~ line 126 ~ joinFunction", joinFunction);
+
+// let firstMap = { a: "a", b: "b" };
+// let secondMap = firstMap;
+
+// secondMap.a = "c";
+
+// console.log(firstMap);
