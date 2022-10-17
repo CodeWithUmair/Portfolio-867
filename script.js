@@ -40,28 +40,16 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: [
-      "Front-End Developer",
-      "React JS Developer",
-      // "React Native Developer",
-      "Freelancer",
-      "Web Designer",
-    ],
-    typeSpeed: 30,
-    backSpeed: 60,
+    strings: ["SEO Expert", "Front-End Developer", "Web Designer"],
+    typeSpeed: 50,
+    backSpeed: 80,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: [
-      "Front-End Developer",
-      "React JS Developer",
-      // "React Native Developer",
-      "Freelancer",
-      "Web Designer",
-    ],
-    typeSpeed: 40,
-    backSpeed: 60,
+    strings: ["SEO Expert", "Front-End Developer", "Web Designer"],
+    typeSpeed: 50,
+    backSpeed: 80,
     loop: true,
   });
 
